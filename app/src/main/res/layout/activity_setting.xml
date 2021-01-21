@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:outlineProvider="bounds"
+    tools:context=".SettingActivity">
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="253dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/secondMainColor"
+        android:backgroundTintMode="add"
+        android:isScrollContainer="true"
+        android:spinnerMode="dialog"
+        android:tooltipText="Tyoe"
+        app:layout_constraintBottom_toTopOf="@+id/ParticipantTxtView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TypeTxtView" />
+
+    <TextView
+        android:id="@+id/TypeTxtView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/dealerplatecalifornia"
+        android:outlineProvider="bounds"
+        android:text="TYPE"
+        android:textAlignment="center"
+        android:textColor="@color/secondMainColor"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ParticipantTxtView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="@font/dealerplatecalifornia"
+        android:outlineProvider="bounds"
+        android:text="PARTICIPANTS"
+        android:textAlignment="center"
+        android:textColor="@color/secondMainColor"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerParticipant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerType">
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spinnerParticipant"
+        android:layout_width="242dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="329dp"
+        android:backgroundTint="@color/secondMainColor"
+        android:backgroundTintMode="add"
+        android:isScrollContainer="true"
+        android:spinnerMode="dialog"
+        android:tooltipText="Participant"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ParticipantTxtView" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="121dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerParticipant"
+        app:srcCompat="@drawable/monkeys" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type_array">
+        <item>Social</item>
+        <item>Education</item>
+        <item>Recreational</item>
+        <item>DIY</item>
+        <item>Charity</item>
+        <item>Busywork</item>
+        <item>Relaxation</item>
+        <item>Music</item>
+
+
+
+
+
+    </string-array>
+
+
+
+
+
+</resources>

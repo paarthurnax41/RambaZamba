@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vievActivityID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="6dp"
+        android:padding="3dp"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+         />
+    <TextView
+        android:id="@+id/activityTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/id"
+        android:layout_marginBottom="8dp"
+        android:maxLines="2"
+        android:padding="3dp"
+        android:textColor="@color/secondMainColor"
+        android:textSize="25sp"
+        android:fontFamily="@font/romansd" />
+</RelativeLayout>

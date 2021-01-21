@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/favourites"
+        android:icon="@android:drawable/btn_star"
+        android:title="Favorites"
+        android:onClick="FavoritesClicked"
+        android:iconTint="@color/background"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/customize"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Customize"
+        android:iconTint="@color/background"
+        android:onClick="SettingsClicked"
+        app:showAsAction="always" />
+</menu>

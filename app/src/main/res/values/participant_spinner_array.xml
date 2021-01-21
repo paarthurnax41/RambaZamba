@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="participant_array">
+        <item>Alone</item>
+
+        <item>2 Participants</item>
+
+        <item>3 Participants</item>
+
+        <item>4 Participants</item>
+
+        <item>More then 4 Participants</item>
+
+
+    </string-array>
+</resources>

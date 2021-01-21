@@ -1,0 +1,54 @@
+1. Im going to be honest, at least half of the technologies written in the Aufgabe
+   i didnt knew and i sticked to the principles i know mostly , but also tried new things
+   like setting own Toolbar and putting a Menu on it , or Spinners with String Array
+   or Sharing a Activity that is in my Favorites list with someone else(Intent share).
+
+2. I used Retrofit first time completly by myself and my first project was
+   with Volley , and Retrofit is really much easier and Comfortabler to work with.
+   I tried to use RecyclerView instead of ListView but time was too short for 
+   it and i didnt knew how to set emptyView on RecyclerView while
+   in ListView its pretty simple and straightforward.
+
+3. I tried to work on the App 24 Hours long but 80% of the Code and Design
+   got finished in around 14 Hours , afterwards my brain was too tired and
+   exhausted to work fast and i was pretty much Coding and thinking in Slow
+   Motion for the reminder of time.
+
+4. I came until to function to open Settings and put Filter on the Activity that 
+   gets generated. But around 1 PM i gave up because i was too tired to do anything
+   just polished the App a little bit and send it to my Girlfriend to try out, which
+   is funny because on everyone else Phone the App works but on my Phone it crashes.
+   Couldnt also connect to my Laptop via USB to check out the problem because my phone
+   did not recognize anything , but my Dads phone worked without any problems.
+
+5. Also showed the Aufgabe to my Teacher and he said he didnt use half of the stuff
+   that was expected there and that they are probably the newest Technologies that dont
+   have wide usage.
+
+6. But it was overall fun and really interesting experience to work invest this much
+   Time in an App and try to make it work, i was stuck on one problem for 1 hour
+   which was really stupid because after the 1 Hour trying to fix i just googled 
+   the exception that was in the Logcat and ofcourse someone in Stackoverflow
+   had the same problem and i solved the issue in 10 seconds :D.
+
+7. I think im going to work on that App a little bit more and it will be mine
+   Frankenstein Experiment where i try everything out that i didnt do before.
+   Ah and i also didnt use any Fragments because i dont use them much and
+   felt more comfortable using standart Activitys , but i will try to learn
+   the next days about them more and try to implement them in my Projects.
+
+8. So that was my Experience and i would love to get a Feedback from your
+   Team about what i could have done better or used differently and what they 
+   would have used if it was Customers wish to get a App like this
+   this time i tried to not be too creative with function and variable names 
+   and not to use Denglisch but standart Englisch :D
+   uuund habe wieder ein ganzes Roman geschrieben :))
+   (9 Tassen Kaffee habe ich geschaft , werde höchstwarscheinlich bis morgen 16:00 Uhr
+    schlafen :))
+
+ Mit freundlichen Grüßen
+ Bekir Yüksektepe
+
+    
+      
+   
